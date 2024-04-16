@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predictive Maintenance Dashboard</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Predictive Maintenance System</h1>
+        <p class="lead">Enter the details below to predict machine maintenance requirements.</p>
+
+        <form method="POST" action="/predictdata">
+            <div class="form-group">
+                <label for="Type">Type</label>
+                <input type="text" class="form-control" id="Type" name="Type" required>
+            </div>
+            <div class="form-group">
+                <label for="Air_temperature_K">Air Temperature (K)</label>
+                <input type="number" class="form-control" id="Air_temperature_K" name="Air_temperature_K" step="any" required>
+            </div>
+            <div class="form-group">
+                <label for="Process_temperature_K">Process Temperature (K)</label>
+                <input type="number" class="form-control" id="Process_temperature_K" name="Process_temperature_K" step="any" required>
+            </div>
+            <div class="form-group">
+                <label for="Rotational_speed_rpm">Rotational Speed (rpm)</label>
+                <input type="number" class="form-control" id="Rotational_speed_rpm" name="Rotational_speed_rpm" required>
+            </div>
+            <div class="form-group">
+                <label for="Torque_Nm">Torque (Nm)</label>
+                <input type="number" class="form-control" id="Torque_Nm" name="Torque_Nm" step="any" required>
+            </div>
+            <div class="form-group">
+                <label for="Tool_wear_min">Tool Wear (min)</label>
+                <input type="number" class="form-control" id="Tool_wear_min" name="Tool_wear_min" step="any" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Predict</button>
+        </form>
+
+        {% if results %}
+            <div class="alert alert-success mt-4" role="alert">
+                {{ results }}
+            </div>
+        {% endif %}
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

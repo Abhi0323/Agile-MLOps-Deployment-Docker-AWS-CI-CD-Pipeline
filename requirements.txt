@@ -6,4 +6,6 @@ seaborn
 imbalanced-learn
 plotly
 dill
+flask
+jinja2
 -e .
