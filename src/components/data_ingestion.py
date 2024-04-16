@@ -10,6 +10,9 @@ from sklearn.model_selection import train_test_split
 from src.components.data_transformation import DataTransformetaionConfig
 from src.components.data_transformation import DataTransformetaion
 
+from src.components.model_trainer import ModelConfig
+from src.components.model_trainer import ModelTrainer
+
 @dataclass
 class DataIngestionConfig:
     train_data_path: str= os.path.join('artificats', 'train.csv')
@@ -52,6 +55,10 @@ if __name__ == '__main__':
 
     data_transformation = DataTransformetaion()
     train_array, test_array,_ = data_transformation.initiate_transfromation(train_df, test_df)
+
+
+    model = ModelTrainer()
+    print(model.initiate_model_training(train_array,test_array))
 
 
 
