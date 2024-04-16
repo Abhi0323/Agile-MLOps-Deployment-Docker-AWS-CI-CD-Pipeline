@@ -5,4 +5,5 @@ scikit-learn
 seaborn
 imbalanced-learn
 plotly
+dill
 -e .
