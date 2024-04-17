@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 
 from sklearn.preprocessing import StandardScaler
+
 from src.pipeline.predict_pipeline import input_data, Pred_Pipeline
 
 application = Flask(__name__)
