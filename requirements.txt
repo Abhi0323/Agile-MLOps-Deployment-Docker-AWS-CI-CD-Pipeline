@@ -1,7 +1,7 @@
 pandas
 numpy
 matplotlib
-scikit-learn
+scikit-learn==1.4.2
 seaborn
 imbalanced-learn
 plotly
