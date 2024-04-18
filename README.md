@@ -5,7 +5,7 @@
 ![ezgif com-animated-gif-maker (3)](https://github.com/Abhi0323/Agile-MLOps-Deployment-Docker-AWS-CI-CD-Pipeline/assets/112967999/c215775e-0e0c-41ee-9d88-102c3a284267)
 You can view my blog, which details the end-to-end steps for this project, here: https://medium.com/@abhishekgoud1212/building-an-end-to-end-predictive-maintenance-machine-learning-application-mlops-ecff82f5d103
 
-* 1. Introduction
+## 1. Introduction
 
 This project is an exemplary demonstration of applying advanced machine learning (ML) techniques and best practices in a real-world predictive maintenance system. It features a sophisticated end-to-end ML pipeline that integrates MLOps practices to ensure scalability, maintainability, and efficient deployment in production environments.
 
