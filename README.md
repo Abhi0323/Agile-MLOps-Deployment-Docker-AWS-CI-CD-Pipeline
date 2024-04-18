@@ -12,7 +12,7 @@ This project is an exemplary demonstration of applying advanced machine learning
 
 ## 2. Project Setup
 
-## Version Control and Collaboration:** Leveraged GitHub for robust version control, enabling seamless collaboration and code management.
+* Version Control and Collaboration: Leveraged GitHub for robust version control, enabling seamless collaboration and code management.
 
 **Environment Consistency:** Established a controlled Python environment with virtualenv, detailed in a requirements.txt file for replicability across development and production stages.
 
