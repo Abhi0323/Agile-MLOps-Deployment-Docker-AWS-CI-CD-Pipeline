@@ -1,6 +1,8 @@
 **Predictive Maintenance Application: Agile MLOps Deployment: Docker-AWS-CI/CD Pipeline**
 
+
 ![ezgif com-animated-gif-maker (3)](https://github.com/Abhi0323/Agile-MLOps-Deployment-Docker-AWS-CI-CD-Pipeline/assets/112967999/c215775e-0e0c-41ee-9d88-102c3a284267)
+You can view my blog, which details the end-to-end steps for this project, here: https://medium.com/@abhishekgoud1212/building-an-end-to-end-predictive-maintenance-machine-learning-application-mlops-ecff82f5d103
 
 **1. Introduction**
 
