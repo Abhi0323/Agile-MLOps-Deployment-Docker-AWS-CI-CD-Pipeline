@@ -1,4 +1,4 @@
-#**Predictive Maintenance Application: Agile MLOps Deployment: Docker-AWS-CI/CD Pipeline**
+# Predictive Maintenance Application: Agile MLOps Deployment: Docker-AWS-CI/CD Pipeline
 
 
 ![ezgif com-animated-gif-maker (3)](https://github.com/Abhi0323/Agile-MLOps-Deployment-Docker-AWS-CI-CD-Pipeline/assets/112967999/c215775e-0e0c-41ee-9d88-102c3a284267)
